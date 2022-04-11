@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_favorite_states.xml" value="0.154" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/icon_favorite_off.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/icon_favorite_on.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/icon_favorite_states.xml" value="0.154" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_single_token.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_token_recyclerview_skeleton.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/holder_token.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

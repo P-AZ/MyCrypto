@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCrypto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_home_title">Top 100 Coins</string>
+    <string name="fragment_favorite_title">Favorites Coin</string>
+    <string name="snackbar_undo_token_click">Undo</string>
+    <string name="snackbar_token_deleted">Token was deleted</string>
+</resources>

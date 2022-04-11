@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navGraph_fragmentHome">
+
+
+    <fragment
+        android:id="@+id/navGraph_fragmentHome"
+        android:name="com.example.mycrypto.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/navGraph_action_fragmentHome_to_singleTokenFragment"
+            app:destination="@+id/navGraph_fragmentFavorite"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navGraph_fragmentFavorite"
+        android:name="com.example.mycrypto.ui.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite">
+
+        <action
+            android:id="@+id/navGraph_action_fragmentFavorite_to_fragmentSingleToken"
+            app:destination="@+id/navGraph_fragmentSingleToken"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navGraph_fragmentSingleToken"
+        android:name="com.example.mycrypto.ui.fragments.SingleTokenFragment"
+        android:label="fragment_single_token"
+        tools:layout="@layout/fragment_single_token">
+
+    </fragment>
+
+</navigation>
